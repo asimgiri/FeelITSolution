@@ -1,0 +1,123 @@
+/* Extra small devices(phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .news .top_row .col-md-2 {
+    text-align: center;
+  }
+
+  .h_col {
+    display: none;
+  }
+
+  header .top-bar .row .col-md-3 {
+    text-align: center;
+  }
+
+  .navbar-nav>li.active>a:hover {
+    border-bottom: none;
+  }
+
+  /* slider responsive */
+  .carousel-control-next, .carousel-control-prev {
+    height: 22%;
+    top: 40%;
+  }
+
+  .related_products .carousel-control-next, .related_products .carousel-control-prev {
+    height: 2%;
+    top: 0;
+    width: 15%;
+  }
+
+  .tb_spacing {
+    padding-top: 40px;
+  }
+
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+  }
+
+  /* about responsive */
+  .about .container .content {
+    text-align: left;
+    padding: 30px;
+  }
+
+  /* why_us responsive */
+  .why_us .container .row {
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .08);
+  }
+
+  .why_us .container .row .col-md-9 {
+    text-align: center;
+  }
+
+  .why_us .col-md-3 i {
+    border: 0;
+  }
+
+  /* testimonials responsive */
+  .testimonials .content {
+    padding: 0 50px;
+    text-align: justify;
+  }
+
+  .testimonials .carousel-control-next, .testimonials .carousel-control-prev {
+    border-radius: 0;
+    top: 10%;
+    height: 10%;
+    width: 8%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .view-radio+label {
+    padding: 0 2px;
+    font-size: 15px;
+  }
+}
+
+/* Tablets(800px and down) */
+@media only screen and (max-width: 800px) {
+  .navbar-nav>li.active>a:hover {
+    border-bottom: none;
+  }
+
+  header .mini p {
+    margin-left: 2px;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  header .logo {
+    margin-top: 22px;
+    margin-left: 16px;
+  }
+
+  header .mini i {
+    font-size: 1.2rem;
+  }
+
+  header .menu-bar .navbar-nav>li>a {
+    padding: 1rem 1rem !important;
+  }
+
+  /* about responsive */
+  .about .container .content {
+    text-align: left;
+    padding: 30px;
+  }
+
+  .testimonials .content {
+    padding: 0;
+    text-align: center;
+  }
+
+  .testimonials .carousel-control-next, .testimonials .carousel-control-prev {
+    top: 10%;
+    height: 10%;
+    width: 6%;
+  }
+}
